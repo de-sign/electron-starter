@@ -1,13 +1,11 @@
 const
     fs = require('fs'),
     path = require('path'),
-    ES = require('./plugins/electron-starter/_');
-    
-let oVue = null;
+    ES = require('./plugins/electron-starter/core');
 
 ES.initialize().then( () => {
 
-    oVue = new Vue({
+    ES.oVue = new Vue({
         el: '.ES-wrap',
         
         components: {
@@ -17,7 +15,7 @@ ES.initialize().then( () => {
         data: {},
         
         mounted() {
-            this.$nextTick( () => document.body.classList.remove('ES-loading') );
+            this.$nextTick( setTimeout( () => document.body.classList.remove('ES-loading'), 800 ) );
         },
         methods: {}
     } );

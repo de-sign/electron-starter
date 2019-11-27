@@ -1,10 +1,13 @@
 {
   "name": "electron-starter",
   "productName": "electron-starter",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "Electron application Starter pack",
   "main": "main.js",
   "scripts": {
+    "gulp-dev": "set NODE_ENV=development & gulp",
+    "gulp-test": "set NODE_ENV=testing & gulp",
+    "gulp-prod": "set NODE_ENV=production & gulp builds",
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
@@ -42,7 +45,9 @@
     }
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-store": "^5.1.0",
+    "excel4node": "^1.7.2"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.45",
