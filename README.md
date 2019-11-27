@@ -35,6 +35,12 @@ Custom UIKit to create your theme :
 ## VueJs
 Create components on `src/components` and edit style on `src/asset/scss/components/vue`.
 
+## Electron Starter
+There are 3 modules :
+    . windows for access to all BrowserWindow
+    . store for datastore JSON
+    . excel for create XLSX file
+
 ## Add your page
 _Look the index page for exemple_
 
