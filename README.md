@@ -27,27 +27,27 @@ All `file.html` will be parse with its data `file.json`.
 
 ## UIKit
 Custom UIKit to create your theme :
-    * `src/asset/scss/abstracts/` for variables and mixins
-    * `src/asset/scss/base/` for font
-    * `src/asset/scss/components/uikit` for UIKit components
-    * `src/asset/scss/layouts` for template
+* `src/asset/scss/abstracts/` for variables and mixins
+* `src/asset/scss/base/` for font
+* `src/asset/scss/components/uikit` for UIKit components
+* `src/asset/scss/layouts` for template
 
 ## VueJs
 Create components on `src/components` and edit style on `src/asset/scss/components/vue`.
 
 ## Electron Starter
 There are 3 modules :
-    * windows for access to all BrowserWindow
-    * store for datastore JSON
-    * excel for create XLSX file
+* windows for access to all BrowserWindow
+* store for datastore JSON
+* excel for create XLSX file
 
 ## Add your page
 _Look the index page for exemple_
 
 When you want to add page :
-    * create `page.html` on `src/pages/`
-    * create `page.json` on `src/pages/data/`
-    * create `page.scss` on `src/asset/scss/`
-    * create `page.js` on `src/asset/js/`
+* create `page.html` on `src/pages/`
+* create `page.json` on `src/pages/data/`
+* create `page.scss` on `src/asset/scss/`
+* create `page.js` on `src/asset/js/`
 
 ## Good jobs !
